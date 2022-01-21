@@ -8,10 +8,51 @@ body {
   font-family: var(--Roboto-font);
   color: var(--main-color);
 }
-a:link {
-  text-decoration: none;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* .navigation {
+  display: flex;
+  align-items: center;
+} */
 /* section HEADER */
 
 .header-logo-link {
