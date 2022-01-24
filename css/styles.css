@@ -145,9 +145,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875em;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  display: block;
   letter-spacing: 0.06em;
   color: #ffffff;
   padding: 10px 42px;
@@ -193,8 +191,12 @@ img {
   line-height: 1.167em;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
-
+.what-we-do-list {
+  display: flex;
+  justify-content: space-between;
+}
 /* section WHAT WE DO END*/
 
 /* section TEAM */
@@ -204,8 +206,12 @@ img {
   line-height: 1.667em;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
-
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
