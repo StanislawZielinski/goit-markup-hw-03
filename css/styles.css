@@ -7,6 +7,7 @@
 body {
   font-family: var(--Roboto-font);
   color: var(--main-color);
+  width: 1600px;
 }
 
 h1,
@@ -99,7 +100,7 @@ img {
   color: var(--secondary-color);
 }
 
-.container .address {
+.address {
   width: 295px;
 }
 .address-list {
@@ -120,7 +121,9 @@ img {
 
 /* section GENERAL */
 .general {
-  background: #2f303a;
+  height: 600px;
+  background-color: #2f303a;
+  padding: 200px 0;
 }
 .general-text {
   font-weight: 900;
@@ -131,20 +134,24 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  width: 692px;
+  margin-bottom: 30px;
+  margin: 0 auto;
 }
 .general-button {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875em;
-  /* identical to box height, or 187% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  padding: 10px 42px;
+  margin: auto auto;
 }
 .general-button:hover,
 .general-button:focus {
@@ -153,6 +160,15 @@ img {
 /* section GENERAL end*/
 
 /* section DESCRIPTION */
+.description > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-box :not(last-child) {
+  margin-right: 30px;
+}
+
 .description-box-title {
   font-weight: 700;
   font-size: 14px;
@@ -164,9 +180,9 @@ img {
 .description-box-text {
   font-size: 14px;
   line-height: 1.714em;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+  width: 270px;
 }
 /* section DESCRIPTION END*/
 
@@ -194,7 +210,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188em;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
 }
