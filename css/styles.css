@@ -1,6 +1,7 @@
 :root {
   --main-color: #212121;
   --secondary-color: #2196f3;
+  --blackBackground-color: #2f303a;
   --Roboto-font: "Roboto", sans-serif;
   --Raleway-font: "Raleway", sans-serif;
 }
@@ -120,9 +121,10 @@ img {
 /* section HEADER END */
 
 /* section GENERAL */
+
 .general {
+  background-color: var(--blackBackground-color);
   height: 600px;
-  background-color: #2f303a;
   padding: 200px 0;
 }
 .general-text {
@@ -233,7 +235,7 @@ img {
 
 /* section FOOTER */
 .footer {
-  background: #2f303a;
+  background: var(--blackBackground-color);
 }
 .header-logo-link-footer {
   font-family: var(--Raleway-font);
@@ -275,6 +277,13 @@ img {
 /* =============PORTFOLIO============ */
 
 /* filtr content */
+.portfolio-filtr-content-list {
+  display: flex;
+  padding-left: 295px;
+}
+.portfolio-filtr-content-list-item {
+  margin-right: 8px;
+}
 .btn-filtr-content {
   background: #f5f4fa;
   border-radius: 4px;
