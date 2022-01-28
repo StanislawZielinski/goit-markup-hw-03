@@ -8,7 +8,6 @@
 body {
   font-family: var(--Roboto-font);
   color: var(--main-color);
-  width: 1600px;
 }
 
 h1,
@@ -69,6 +68,7 @@ img {
 .header-logo-link {
   font-family: var(--Raleway-font);
   font-weight: 700;
+  font-style: normal;
   font-size: 26px;
   line-height: 1.192em;
   letter-spacing: 0.03em;
@@ -187,6 +187,9 @@ img {
 /* section DESCRIPTION END*/
 
 /* section WHAT WE DO */
+.what-we-do > .container {
+  padding-bottom: 94px;
+}
 .what-we-do-title {
   font-weight: 700;
   font-size: 36px;
@@ -202,6 +205,9 @@ img {
 /* section WHAT WE DO END*/
 
 /* section TEAM */
+.team {
+  background: #f5f4fa;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -214,21 +220,29 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188em;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 30px 0 10px;
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.188em;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
 }
 
 /* section TEAM END */
